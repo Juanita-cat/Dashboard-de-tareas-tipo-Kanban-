@@ -5,6 +5,8 @@
   "type": "module",
   "homepage": "https://github.com/Juanita-cat/Dashboard-de-tareas-tipo-Kanban-",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
