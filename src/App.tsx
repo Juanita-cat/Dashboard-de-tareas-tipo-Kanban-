@@ -28,7 +28,6 @@ function App () {
         sobre conceptos fundamentales de la gestión de proyectos y el 
         desarrollo de software, ayudando a comprender cómo se organizan 
         y planifican los procesos de trabajo en el ámbito tecnológico.
-
       </p>
     </div>
   </section>
@@ -71,7 +70,7 @@ function App () {
       </p>
 
       <p>
-        Aquí esta un ejemplo del tablero de kanban (me puesdes ayudar aqui a poner la imajen porfa :c)
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIIS5b6vqsz8oSad7wqIfM5fpDo4Hl2ueDkQ&s" alt="Introducción a Kanban" />
       </p>
 
       <strong>Introducción  Kanban</strong>
