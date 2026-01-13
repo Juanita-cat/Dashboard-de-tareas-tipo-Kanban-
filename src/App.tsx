@@ -74,7 +74,7 @@ function App () {
         Aquí esta un ejemplo de el tablero de kanban (me puesdes ayudar aqui a poner la imajen porfa :c)
       </p>
 
-      <strong>Kanban</strong>
+      <strong>Introducción a Kanban</strong>
 
       <p>
         Kanban es una metodología ágil ampliamente utilizada tanto en el 
