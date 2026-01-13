@@ -69,9 +69,11 @@ function App () {
         mejora continua.
       </p>
 
-      <p>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIIS5b6vqsz8oSad7wqIfM5fpDo4Hl2ueDkQ&s" alt="Introducción a Kanban" className='paya' />
+      <p className='card2'  >
+        ejemplo de tablero de kanban
+        <br/>
       </p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIIS5b6vqsz8oSad7wqIfM5fpDo4Hl2ueDkQ&s" alt="Introducción a Kanban" className='paya' />
 
       <strong>Introducción Kanban</strong>
 
@@ -240,7 +242,7 @@ function App () {
   <section id="frameworks">
     <h2>😸 Frameworks.</h2>
     <div className="card">
-      <p>
+      <p className='card2'>
         En este apartado se explican tecnologías y tipos de datos usados 
         en programación, los cuales son la base para crear aplicaciones 
         y páginas web. Se abordan conceptos esenciales que permiten 
@@ -253,8 +255,10 @@ function App () {
         <img src="https://img.youtube.com/vi/XlDluD0bQsE/0.jpg" alt="Frameworks" className='paya' />
       </a>
 
-      <h3>Tipos de datos</h3>
+      <strong>Tipos de datos</strong>
+        <br /> 
       <p className='card2'>
+
         Los tipos de datos son clasificaciones que definen qué tipo de 
         información puede almacenar una variable dentro de un programa. 
         Son esenciales para que el sistema interprete correctamente los 
@@ -271,8 +275,11 @@ function App () {
       <a href="https://www.tiktok.com/@juanita.garca.rom/video/7592435568290663687" target="_blank" rel="noopener noreferrer">
         <span>Ver en TikTok</span>
       </a>
+      <br />
+      <br />
 
-      <h3>HTML</h3>
+      <strong>HTML</strong>
+      <br />
       <p className='card2'>
         HTML (HyperText Markup Language) es el lenguaje estándar 
         utilizado para crear la estructura de las páginas web. Su 
@@ -291,8 +298,11 @@ function App () {
       <a href="https://www.tiktok.com/@juanita.garca.rom/video/7592448234052783368" target="_blank" rel="noopener noreferrer">
         <span>Ver en TikTok</span>
       </a>
+      <br />
+      <br />
 
-      <h3>CSS</h3>
+      <strong>CSS</strong>  
+      <br />
       <p className='card2'>
         CSS (Cascading Style Sheets) es el lenguaje encargado de definir 
         el estilo visual de las páginas web. Permite controlar aspectos 
@@ -309,8 +319,11 @@ function App () {
       <a href="https://www.tiktok.com/@juanita.garca.rom/video/7592442501315726599" target="_blank" rel="noopener noreferrer">
         <span>Ver en TikTok</span>
       </a>
+      <br />
+      <br />
 
-      <h3>Java</h3>
+      <strong>Java</strong>
+      <br />  
       <p className='card2'>
         Java es un lenguaje de programación orientado a objetos, 
         multiplataforma y ampliamente utilizado en diferentes áreas de 
@@ -347,8 +360,10 @@ function App () {
       <a href="https://youtube.com/shorts/OJavAo2sH60" target="_blank" rel="noopener noreferrer">
         <img src="https://img.youtube.com/vi/OJavAo2sH60/0.jpg" alt="Metodologías" className='paya' />
       </a>
+      <br />
 
-      <h3>Metodologías Ágiles</h3>
+      <strong>Metodologías Ágiles</strong>
+      <br />
       <p className='card2'>
         Las metodologías ágiles son un conjunto de prácticas y principios
         que buscan gestionar proyectos de forma flexible, iterativa y 
@@ -365,8 +380,10 @@ function App () {
       <a href="https://youtube.com/shorts/fKCWSnMw0CI" target="_blank" rel="noopener noreferrer">
         <img src="https://img.youtube.com/vi/fKCWSnMw0CI/0.jpg" alt="Metodologías ágiles" className='paya' />
       </a>
+      <br />
 
-      <h3>¿Qué son las metodologías?</h3>
+      <strong>¿Qué son las metodologías?</strong>
+      <br />
       <p className='card2'>
         Las metodologías son conjuntos estructurados de procesos,
         técnicas y reglas que orientan la forma de trabajar en un 
@@ -383,8 +400,10 @@ function App () {
       <a href="https://www.tiktok.com/@juanita.garca.rom/video/7592448578497318162" target="_blank" rel="noopener noreferrer">
         <span>Ver en TikTok</span>
       </a>
+      <br />
 
-      <h3>Metodologías Tradicionales</h3>
+      <strong>Metodologías Tradicionales</strong>
+      <br />  
       <p className='card2'>
         Las metodologías tradicionales se caracterizan por seguir una 
         planificación rígida y etapas secuenciales que no suelen 
@@ -401,8 +420,10 @@ function App () {
       <a href="https://youtube.com/shorts/WoIxz11eVOw" target="_blank" rel="noopener noreferrer">
         <img src="https://img.youtube.com/vi/WoIxz11eVOw/0.jpg" alt="Metodologías tradicionales" className='paya' />
       </a>
+      <br />
 
-      <h3>Scrum</h3>
+      <strong>Scrum</strong>
+      <br />
       <p className='card2'>
         Scrum es una metodología ágil ampliamente utilizada en el 
         desarrollo de software. Se basa en trabajar en ciclos cortos 
@@ -426,9 +447,9 @@ function App () {
   <section id="contacto">
     <h2>😽 Contacto.</h2>
     <div className="card">
-      <p><strong>Teléfono:</strong> 5618214222</p>
+      <p><strong className="normal" >Teléfono:</strong> 5618214222</p>
       <p>
-        <strong>TikTok:</strong>{" "}
+        <strong className="normal" >TikTok:</strong>{" "}
         <a 
           href="https://www.tiktok.com/@juanita.garca.rom?_r=1&_t=ZS-92zgcUfIwE8" 
           target="_blank" 
@@ -438,7 +459,7 @@ function App () {
         </a>
       </p>
       <p>
-        <strong>Facebook:</strong>{" "}
+        <strong className="normal" >Facebook:</strong>{" "}
         <a 
           href="https://www.facebook.com/share/1ETwRnrmyp/" 
           target="_blank" 
@@ -448,7 +469,7 @@ function App () {
         </a>
       </p>
       <p>
-        <strong>Instagram:</strong>{" "}
+        <strong className="normal" >Instagram:</strong>{" "}
         <a 
           href="https://www.instagram.com/juanita_cat28" 
           target="_blank" 

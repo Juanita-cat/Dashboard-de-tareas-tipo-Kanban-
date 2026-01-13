@@ -1,27 +1,35 @@
 @font-face {
   font-family: 'Flame';
-  src: url('./fuentes/FlameRegular.otf') format('opentype');
+  src: url('./assets/fuentes/FlameRegular.otf ') format('opentype');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'FlameBold';
-  src: url('./fuentes/FlameBold.otf') format('opentype');
-  font-weight: bold;
+  src: url('./assets/fuentes/FlameBold.otf') format('opentype');
+  font-weight: normal;
 }
 
 @font-face {
   font-family: 'FlameSans';
-  src: url('./fuentes/FlameSans.otf') format('opentype'); /* sin espacio y sin doble slash */
-  font-weight: 600;
+  src: url('./assets/fuentes/FlameSans.otf') format('opentype'); /* sin espacio y sin doble slash */
 }
-p {
+.pp {
   font-family: 'FlameSans', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 25px;
   line-height: 1.6;
   color: #4a2c6b;
 }
 
+strong {
+  font-family: 'Flame', Arial, sans-serif;
+  font-size:  23px;
+}
+
+.normal {
+  font-family: 'Flame', Arial, sans-serif;
+  font-size:  20px;
+}
 body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -39,7 +47,7 @@ body {
       border-top:#b47bff  4px solid;
       border-bottom:#b47bff  1px solid;
       font-family: 'FlameSans', Arial, sans-serif;
-      font-size: 16px;
+      font-size: 18px;
     }
 
     .paya {
