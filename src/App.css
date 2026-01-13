@@ -1,9 +1,52 @@
+@font-face {
+  font-family: 'Flame';
+  src: url('./fuentes/FlameRegular.otf') format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'FlameBold';
+  src: url('./fuentes/FlameBold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'FlameSans';
+  src: url('./fuentes/FlameSans.otf') format('opentype'); /* sin espacio y sin doble slash */
+  font-weight: 600;
+}
+p {
+  font-family: 'FlameSans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4a2c6b;
+}
+
 body {
       margin: 0;
       font-family: Arial, sans-serif;
       background: #f8f0ff;
       color: #3a245d;
       align-items: center;
+    }
+
+    .card2 {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 15px;
+      border-top:#b47bff  4px solid;
+      border-bottom:#b47bff  1px solid;
+      font-family: 'FlameSans', Arial, sans-serif;
+      font-size: 16px;
+    }
+
+    .paya {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
     }
 
 

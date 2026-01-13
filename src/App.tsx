@@ -21,7 +21,7 @@ function App () {
   <section id="inicio">
     <div className="card">
       <h2>🐾 Inicio.</h2>
-      <p>
+      <p className='card2'>
         Hola, esta es una página web educativa en la que exploraremos 
         tres apartados principales: Kanban, frameworks y metodologías. 
         El objetivo de esta página es brindar información clara y sencilla 
@@ -37,7 +37,7 @@ function App () {
     <h2>🐈 Kanban.</h2>
     <div className="card">
       
-      <p>
+      <p className='card2'>
         <strong>Tablero de kanban</strong>
         <br />
         El tablero de Kanban es una herramienta visual que se utiliza 
@@ -70,12 +70,12 @@ function App () {
       </p>
 
       <p>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIIS5b6vqsz8oSad7wqIfM5fpDo4Hl2ueDkQ&s" alt="Introducción a Kanban" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIIS5b6vqsz8oSad7wqIfM5fpDo4Hl2ueDkQ&s" alt="Introducción a Kanban" className='paya' />
       </p>
 
-      <strong>Introducción  Kanban</strong>
+      <strong>Introducción Kanban</strong>
 
-      <p>
+      <p className='card2'>
         Kanban es una metodología ágil ampliamente utilizada tanto en el 
         desarrollo de software como en la organización personal. Destaca 
         por su flexibilidad y por el uso de tableros visuales que permiten 
@@ -85,10 +85,10 @@ function App () {
       </p>
 
       <a className='ee' href="https://youtube.com/shorts/4jDfB2XoN-Y?si=DvrAyMhR-NfBhO_P" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.youtube.com/vi/4jDfB2XoN-Y/0.jpg" alt="Introducción a Kanban" />
+        <img src="https://img.youtube.com/vi/4jDfB2XoN-Y/0.jpg" alt="Introducción a Kanban" className='paya' />
       </a>
 
-      <p>
+      <p className='card2'>
         <strong>¿Qué es Kanban y para qué sirve?</strong>
         <br />
         Kanban es un método visual de gestión del trabajo que utiliza 
@@ -113,7 +113,7 @@ function App () {
         <span>Ver en TikTok</span>
       </a>
 
-      <p>
+      <p className='card2'>
         <strong>Origen de Kanban</strong>
         <br />
         Kanban nació en Toyota, Japón, durante la década de 1940, como 
@@ -137,7 +137,7 @@ function App () {
         <span>Ver en TikTok</span>
       </a>
 
-      <p>
+      <p className='card2'>
         <strong>Principios fundamentales</strong>
         <br />
         Los principios fundamentales de Kanban, definidos por David J. 
@@ -161,10 +161,10 @@ function App () {
       
 
       <a href="https://youtube.com/shorts/9IOeBstzBNM" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.youtube.com/vi/9IOeBstzBNM/0.jpg" alt="Principios de Kanban" />
+        <img src="https://img.youtube.com/vi/9IOeBstzBNM/0.jpg" alt="Principios de Kanban" className='paya' />
       </a>
 
-      <p>
+      <p className='card2'>
         <strong>Kanban en entornos ágiles</strong>
         <br />
         Kanban se integra de manera natural con los entornos ágiles 
@@ -188,7 +188,7 @@ function App () {
         <span>Ver en TikTok</span>
       </a>
 
-      <p>
+      <p className='card2'>
         <strong>Kanban para desarrollo de software</strong>
         <br />
         En el desarrollo de software, Kanban se utiliza para gestionar 
@@ -209,10 +209,10 @@ function App () {
       </p>
 
       <a href="https://youtube.com/shorts/EtyHMCb5NVM" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.youtube.com/vi/EtyHMCb5NVM/0.jpg" alt="Kanban en desarrollo de software" />
+        <img src="https://img.youtube.com/vi/EtyHMCb5NVM/0.jpg" alt="Kanban en desarrollo de software" className='paya' />
       </a>
 
-      <p>
+      <p className='card2'>
         <strong>Kanban Personal</strong>
         <br />
         El Kanban personal es una adaptación del método Kanban a la 
@@ -231,7 +231,7 @@ function App () {
       </p>
 
       <a href="https://youtube.com/shorts/363vvOZmK8s" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.youtube.com/vi/363vvOZmK8s/0.jpg" alt="Kanban personal" />
+        <img src="https://img.youtube.com/vi/363vvOZmK8s/0.jpg" alt="Kanban personal" className='paya' />
       </a>
     </div>
   </section>
@@ -250,11 +250,11 @@ function App () {
       </p>
 
       <a href="https://youtube.com/shorts/XlDluD0bQsE" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.youtube.com/vi/XlDluD0bQsE/0.jpg" alt="Frameworks" />
+        <img src="https://img.youtube.com/vi/XlDluD0bQsE/0.jpg" alt="Frameworks" className='paya' />
       </a>
 
       <h3>Tipos de datos</h3>
-      <p>
+      <p className='card2'>
         Los tipos de datos son clasificaciones que definen qué tipo de 
         información puede almacenar una variable dentro de un programa. 
         Son esenciales para que el sistema interprete correctamente los 
@@ -273,7 +273,7 @@ function App () {
       </a>
 
       <h3>HTML</h3>
-      <p>
+      <p className='card2'>
         HTML (HyperText Markup Language) es el lenguaje estándar 
         utilizado para crear la estructura de las páginas web. Su 
         función principal es organizar el contenido mediante etiquetas 
@@ -293,7 +293,7 @@ function App () {
       </a>
 
       <h3>CSS</h3>
-      <p>
+      <p className='card2'>
         CSS (Cascading Style Sheets) es el lenguaje encargado de definir 
         el estilo visual de las páginas web. Permite controlar aspectos 
         como colores, tipografías, tamaños, márgenes, bordes y la 
@@ -311,7 +311,7 @@ function App () {
       </a>
 
       <h3>Java</h3>
-      <p>
+      <p className='card2'>
         Java es un lenguaje de programación orientado a objetos, 
         multiplataforma y ampliamente utilizado en diferentes áreas de 
         la tecnología. Se emplea en aplicaciones empresariales, sistemas
@@ -326,7 +326,7 @@ function App () {
         proyectos grandes y complejos.
       </p>
       <a href="https://youtube.com/shorts/j2gDlwNXvq4" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.youtube.com/vi/j2gDlwNXvq4/0.jpg" alt="Java" />
+        <img src="https://img.youtube.com/vi/j2gDlwNXvq4/0.jpg" alt="Java" className='paya' />
       </a>
     </div>
   </section>
@@ -335,7 +335,7 @@ function App () {
   <section id="metodologias">
     <h2>🐈‍⬛ Metodologías</h2>
     <div className="card">
-      <p>
+      <p className='card2'>
         Aquí aprenderás sobre metodologías ágiles, tradicionales y Scrum, 
         analizando sus características, diferencias y usos principales. 
         Este apartado ayuda a comprender cómo se planifican y gestionan 
@@ -345,11 +345,11 @@ function App () {
       </p>
 
       <a href="https://youtube.com/shorts/OJavAo2sH60" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.youtube.com/vi/OJavAo2sH60/0.jpg" alt="Metodologías" />
+        <img src="https://img.youtube.com/vi/OJavAo2sH60/0.jpg" alt="Metodologías" className='paya' />
       </a>
 
       <h3>Metodologías Ágiles</h3>
-      <p>
+      <p className='card2'>
         Las metodologías ágiles son un conjunto de prácticas y principios
         que buscan gestionar proyectos de forma flexible, iterativa y 
         colaborativa. Su objetivo principal es adaptarse rápidamente a 
@@ -363,12 +363,12 @@ function App () {
         necesidades del entorno.
       </p>
       <a href="https://youtube.com/shorts/fKCWSnMw0CI" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.youtube.com/vi/fKCWSnMw0CI/0.jpg" alt="Metodologías ágiles" />
+        <img src="https://img.youtube.com/vi/fKCWSnMw0CI/0.jpg" alt="Metodologías ágiles" className='paya' />
       </a>
 
       <h3>¿Qué son las metodologías?</h3>
-      <p>
-        Las metodologías son conjuntos estructurados de procesos, 
+      <p className='card2'>
+        Las metodologías son conjuntos estructurados de procesos,
         técnicas y reglas que orientan la forma de trabajar en un 
         proyecto. Su función es organizar el trabajo, mejorar la 
         calidad de los resultados y facilitar el control del avance. 
@@ -385,7 +385,7 @@ function App () {
       </a>
 
       <h3>Metodologías Tradicionales</h3>
-      <p>
+      <p className='card2'>
         Las metodologías tradicionales se caracterizan por seguir una 
         planificación rígida y etapas secuenciales que no suelen 
         modificarse. Una vez que se completa una fase, se pasa a la 
@@ -399,11 +399,11 @@ function App () {
         desarrollo del proyecto.
       </p>
       <a href="https://youtube.com/shorts/WoIxz11eVOw" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.youtube.com/vi/WoIxz11eVOw/0.jpg" alt="Metodologías tradicionales" />
+        <img src="https://img.youtube.com/vi/WoIxz11eVOw/0.jpg" alt="Metodologías tradicionales" className='paya' />
       </a>
 
       <h3>Scrum</h3>
-      <p>
+      <p className='card2'>
         Scrum es una metodología ágil ampliamente utilizada en el 
         desarrollo de software. Se basa en trabajar en ciclos cortos 
         llamados Sprints, que suelen durar entre una y cuatro semanas. 
@@ -417,7 +417,7 @@ function App () {
         colaboración entre todos los integrantes del equipo.
       </p>
       <a href="https://youtube.com/shorts/_Nv-b9K26Ag" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.youtube.com/vi/_Nv-b9K26Ag/0.jpg" alt="Scrum" />
+        <img src="https://img.youtube.com/vi/_Nv-b9K26Ag/0.jpg" alt="Scrum" className='paya' />
       </a>
     </div>
   </section>
