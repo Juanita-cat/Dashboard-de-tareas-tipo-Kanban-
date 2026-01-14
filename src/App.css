@@ -20,7 +20,29 @@
   line-height: 1.6;
   color: #4a2c6b;
 }
+nav button {
+    background-color: rgb(174, 0, 255);
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 4px 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    font-family: 'FlameSans';
+}
 
+nav button:hover {
+    background-color: rgb(240, 164, 255);
+    color: white;
+    transform: scale(1.1);
+    border-color: white;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+}
 strong {
   font-family: 'Flame', Arial, sans-serif;
   font-size:  23px;
@@ -56,7 +78,23 @@ body {
       margin-right: auto;
       width: 60%;
     }
+  .contactocaja {
+    background-color: rgba(186, 85, 211, 0.4);
+    color: white;
+    padding: 40px;
+    width: 500px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    position:relative;
+    left: 38%;}
 
+  .contactocaja:hover {
+    background-color: rgba(186, 85, 211, 0.6); 
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+}
 
     header {
       position: fixed;
