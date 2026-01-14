@@ -2,7 +2,7 @@ function Contacto() {
   return (
     <section id="contacto">
           <div className="contactocaja">
-            <h3>Contáctanos</h3>
+            <h2>😽Contáctanos</h2>
  <p><strong className="normal" >Teléfono:</strong> 5618214222</p>
       <p>
         <strong className="normal" >TikTok:</strong>{" "}
